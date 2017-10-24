@@ -73,3 +73,8 @@ obj-$(CONFIG_MEMORY_STATE_TIME) += memory_state_time.o
 obj-$(CONFIG_APDS9930)		+= apds993x.o
 obj-$(CONFIG_UID_SYS_STATS) += uid_sys_stats.o
 obj-$(CONFIG_MEMORY_STATE_TIME) += memory_state_time.o
+
+obj-$(CONFIG_FPC1020_REE) += fpc1020_ree.o
+#sensors add for MAX86100
+obj-$(CONFIG_SENSORS_SYSFS)	+= sensors_core.o
+obj-$(CONFIG_SENSORS_MAX86X00)	+= max86x00.o
